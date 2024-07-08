@@ -1,0 +1,156 @@
+@media (min-width: 1000px) {
+    body {
+        min-height: 100vh; 
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 20px; 
+        background-color: #141414; 
+    }
+
+    .container {
+        background-color: #000;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(45, 44, 44, 0.5);
+        width: 40%; 
+        max-width: 500px; /
+        padding: 1rem;
+        position: relative; 
+        margin: 0 auto; 
+
+    }
+
+}
+
+    .top, .center, .bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0.7rem; 
+    }
+
+    .user{
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 0.5rem; 
+    }
+
+
+    .user .img-user {
+        margin-bottom: 0; 
+    }
+
+
+    .user img {
+        width: 50px; 
+        height: 50px;
+        border-radius: 50%; 
+    }
+
+    .info-user h1 {
+        font-size: 1.1rem;
+        margin-bottom: 0.2rem; 
+    }
+
+ 
+    .info-user span {
+        font-size: 1rem; 
+        color: #888; 
+    }
+
+ 
+    .redes-sociais {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem; 
+    }
+
+
+    .redes-sociais i {
+        font-size: 2rem;
+        color: #fff; 
+    }
+
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+
+    .text-skills span {
+        font-size: 1.2rem; 
+        color: #8b008b; 
+        margin-bottom: 0.5rem;
+    }
+
+ 
+    .skills-icons {
+        display: flex;
+        justify-content: left;
+        gap: 0.8rem; 
+    }
+
+
+    .skills-icons i {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+        height: 90%;
+    }
+
+
+    .text-contato h1 {
+        font-size: 1.2rem; 
+        color: #ffff; 
+    }
+
+
+    .text-contato span {
+        font-size: 1rem;
+        color: #ffff; 
+        text-align: center;
+        display: block;
+        margin-bottom: 1rem; 
+    }
+
+   
+    .lista-contato a {
+        color: #fff; 
+        text-decoration: none;
+        margin-bottom: 0.5rem;
+        display: block;
+        font-weight: bold;
+
+    }
+
+
+    .btn-contato a {
+        text-decoration: none;
+        color: #202020; 
+        background-color: #ffffff; 
+        padding: 0.5rem 1rem; 
+        border-radius: 5px; 
+        font-size: 1rem; 
+    }
+    .btn2 {
+        background-color: #dfdfdf;
+        color: #000000;
+        font-weight: 600;
+        padding: 10px 20px; 
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
